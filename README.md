@@ -20,6 +20,32 @@ To revolutionize the traditional manual accident reporting process used by autho
 
 ---
 
+## 📊 Model Performance Summary
+
+| Model        | Type       | Speed        | Accuracy (mAP) |
+|--------------|------------|--------------|----------------|
+| YOLOv7       | One-stage  | ⚡ Fastest    | ✅ 94%         |
+| SSD          | One-stage  | Fast         | 83%            |
+| Faster R-CNN | Two-stage  | Moderate     | 82%            |
+| RetinaNet    | One-stage  | Moderate     | 84%            |
+
+---
+
+## 📌 Deployment
+
+The final system was deployed as a local web application that allows **General Department of Traffic** employees to upload CCTV images and receive an automatically generated accident report powered by GPT-4.
+
+---
+
+## 🧠 CRISP-DM Methodology Followed
+
+1. **Business Understanding**  
+2. **Data Collection & Preparation**  
+3. **Modeling & Evaluation**  
+4. **Deployment**
+
+---
+
 ##  Technologies Used
 
 - Python  
