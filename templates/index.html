@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="static/css/main.css"> 
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="icon" href="static/images/fender-bender.png">
+
+    <title>SVADARS</title>
+
+</head>
+<body>
+    <header>
+        <h1>Smart Vehicle Accident Detection and Reporting System</h1>
+        <img src="static/images/pnu English Logo.png">
+    </header>
+    
+    <div class="main">
+        <video src="static/videos/car.mp4" autoplay loop muted></video>
+        <div class="content">
+            <div id="uploadBox">
+
+                <h2>Accident Image Upload</h2>
+
+                <form id="uploadForm" action="/detect" method="post" enctype="multipart/form-data">
+                    <input type="file" id="imageInput" name="image" accept="image/*" required>
+                    <br>
+                    <button type="submit" id="uploadButton">Upload Image</button>
+                </form>                   
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Smart Vehicle Accident Detection and Reporting System. All rights reserved.</p>
+        <p>Created By<br>
+        Monerah Almobarak, Alaa Alshuaibi, Nada Alotaibi, Sarah Aljuhani, Sarah Altaweel</p>
+        <p>Supervised By<br>
+        Dr. Amel Ksibi</p>
+    </footer>
+
+
+</body>
+</html>

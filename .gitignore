@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+env/
+nenv/
+
+# Mac system file
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Env variables and config
+.env
+
+# Upload folders or generated media
+uploads/
+
+# Large models and binaries
+*.pkl
+*.h5
+*.pt
+*.onnx
+*.weights
+
+# Ignore Git repo inside yolov7
+yolov7/

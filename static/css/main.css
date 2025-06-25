@@ -1,0 +1,92 @@
+
+body, header, footer, .main, .content, #uploadBox, input[type="file"], #uploadButton {
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #FFF;
+    background: url(/images/header-back.png) repeat-x;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px; /* Adjust if needed */
+    z-index: 1;
+    text-align: center;
+    display: inline-block;
+}
+
+header img {
+    float: left; 
+    height: 150px; 
+}
+
+header h1 {
+    line-height: 170px; /* Centers the text vertically; adjust as needed */
+    margin: 0; /* Removes default margins */
+    margin-left: -150px; /* Shift text to the left */
+    display: inline-block;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    height: calc(100vh - 60px); /* Adjusting main height considering header and footer */
+    position: relative;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+#uploadBox {
+padding: 20px;
+background-color: rgba(0, 0, 0, 0.7);
+text-align: center;
+border-radius: 10px;
+width: 300px; /* Adjust the width as needed */
+margin: auto; /* Center the box horizontally */
+}
+
+
+input[type="file"] {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+#uploadButton {
+    padding: 10px;
+    background-color: #5C591E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
